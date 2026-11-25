@@ -3,7 +3,7 @@ import os
 LINE = "I am away on a year-long vacation in direct sunlight. No one has asked me anything. I do not miss working."
 
 
-assert 1 <= len(LINE) <= 120, "LINE must be between 1 and 120 characters"
+("assert 1 <= len(LINE) <= 120\n", "assert '\n' not in LINE and '\r' not in LINE\n", "assert LINE.startswith(LINE.lstrip())"), "LINE must be between 1 and 120 characters"
 
 
 def main():
